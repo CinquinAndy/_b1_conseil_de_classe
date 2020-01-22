@@ -1,0 +1,56 @@
+html{
+    background-color: #232532;
+}
+.background{
+    background-color: #232532;
+}
+
+#sizeLogo{
+    max-width: 80%;
+}
+.titleCenter {
+    margin: 2%;
+    text-align: center;
+    color: white;
+}
+.formConnection{
+    width: 60%;
+    margin: 2% 20%;
+}
+.formCenter{
+    margin: 2% 20%;
+}
+.custom-select {
+    margin: 20px 15%;
+    width: 70%;
+}
+
+.sizedown{
+    font-size: 0.7rem;
+}
+.replacementBouton{
+    margin: 3%;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.replacementTd{
+    display: flex;
+    align-items: center;
+}
+#espece{
+    width: 45%;
+}
+#nb{
+    padding-right: 0;
+}
+.NoPaddingSide{
+    padding-right: 0;
+    padding-left: 0;
+}
+.tableau{
+    width: 15%;
+}
+.tableau1{
+    width: 10%;
+}
