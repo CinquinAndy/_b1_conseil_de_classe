@@ -13,6 +13,7 @@ for ($i = 1; $i < 27; $i++) {
     $request->bindParam(":idProf",$x);
     $request->bindParam(":Prenom",$prenomEleve[$i]);
     $request->execute();
+    :
 }
 
 header("location: index.php");
