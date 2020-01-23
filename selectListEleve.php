@@ -14,7 +14,7 @@ $lines = $request->fetchAll();
 <h2 class="titleCenter">Orientation - Choix élèves</h2>
 <div class="container">
 
-    <form id="form" action="index.php?resultat=1" method="post">
+    <form id="form" action="index.php" method="post">
         <div class="form-group">
             <label for="sel1">Selection de l'eleve :</label>
             <input type="hidden" id="idEleve" name="idEleve" value="">
