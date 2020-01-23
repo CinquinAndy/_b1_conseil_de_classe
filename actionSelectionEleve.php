@@ -33,20 +33,20 @@ $lines = $request->fetchAll();
                     <tr>
                         <td class="col-auto tableau">
                             <div class="text-light col-auto">
-                                <div class="eleve"><?php echo $line['Nom'] ?> - <?php echo $line['Prenom'] ?></div>
+                                <div class="eleve" style="text-align: center"><?php echo $line['Nom'] ?></div>
+                                <div class="eleve" style="font-weight: bold; text-align: center"><?php echo $line['Prenom'] ?></div>
+                            </div>
 
                         </td>
                         <td class="col-auto tableau">
                             <div class="text-light col-auto">
-                                <div class="prof"><?php echo $line['NomProf'] ?> - <?php echo $line['PrenomProf'] ?></div>
-                                <br>
-                                <div style="font-weight: bold"><?php echo $line['matiere'] ?></div>
-
+                                <div class="prof" style="text-align: center"><?php echo $line['NomProf'] ?>   <?php echo $line['PrenomProf'] ?></div>
+                                <div style="font-weight: bold; text-align: center"><?php echo $line['matiere'] ?></div>
+                            </div>
                         </td>
                         <td class="col-auto tableau1">
                             <input class="form-control" id="moyenne<?php echo $i ?>" name="moyenne<?php echo $i ?>"
                                    value="<?php echo $line['moyenne'] ?>">
-
                         </td>
                         <td class="col-auto">
                                 <textarea class="form-control" id="appreciation<?php echo $i ?>"
